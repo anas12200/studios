@@ -1,0 +1,174 @@
+/* General CSS */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .body {
+    background: #191414;
+  }
+  
+  .logo {
+    width: 40%;
+    height: 40%;
+  }
+  
+  #expand {
+    padding: 0;
+  }
+  
+  .container-fluid {
+    background: #fff;
+  }
+  
+  .text-container {
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .anas {
+    background: linear-gradient(21deg, rgba(48, 25, 72, 1) 0%, rgba(48, 25, 72, 1) 0%, rgba(228, 7, 190, 1) 27%, rgba(48, 25, 72, 1) 75%, rgba(48, 25, 72, 1) 90%);
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  
+  .div {
+    align-items: center;
+  }
+  
+  .line {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .line2 {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .tag {
+    border: 6px solid #fff;
+    width: 45%;
+    border-radius: 10px;
+  }
+  
+  .btn-learn {
+    background-color: rgba(137, 43, 226, 0);
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px;
+    border-radius: 7px;
+  }
+  
+  .imgdiv {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .anass {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .ans {
+    margin-top: -4%;
+    
+  }
+  
+  .colm1 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 10px;
+    height: 200px;
+    justify-content: center;
+  }
+  
+
+  
+@media screen and (max-width:770px){
+  .div{
+    height: 100%;
+ }
+ .input{
+  margin-right: -60px;
+}
+input[type="email"] {
+  padding-right: 100px; 
+  width: 100px;
+  color: #151327;
+  font-size: 17px;
+  padding-left: 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none; 
+  height: 42px;
+}
+
+button {
+  height: 100%;
+  padding: 5px 10px;
+}
+p{
+  padding: 1px;
+}
+.list{
+  margin-right: 2px;
+  width:300px;
+}
+.col{
+  width: 250px; 
+  margin-left: 12px;
+}
+.copy{
+   font-size: 6px;
+}
+}
+@media screen and (max-width:550px){
+ #fluid{
+  background-color: #E43B76;
+  padding: 20px;
+  margin-top: 3%;
+ }
+ #about{
+  color: #fff;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: lighter;
+ }
+ #h1{
+  color: #fff;
+  font-weight:600;
+  font-size: 20px;
+ }
+}
+@media screen and (max-width:768px){
+  #h1{
+    color: #fff;
+    font-weight:300;
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens smaller than 768px */
+}
+
+@media screen and (max-width: 576px) {
+  /* CSS rules for screens smaller than 576px */
+  #h1{
+    color: #fff;
+    font-weight:300;
+    font-size: 20px;
+}
+}
+
+  
+ 
+  
